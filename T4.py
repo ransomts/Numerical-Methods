@@ -1,5 +1,11 @@
 import math
 
+'''
+This is an implementation of the Taylor's series metod of approximating
+ordinary differenetial equations. Not quite as effective as the Runge Kutta
+method.
+'''
+
 def T4():
 
 # initial conditions x(0) = 1, step size of 1/100
@@ -7,10 +13,7 @@ def T4():
    t = 0
    h = 0.01
 
-
-
    while t <= 1:
-#      print("t = ", t, "\tx = ", x)
       print("t = %2.3f\tx = %9.9f" % (t, x))
       st = 1 + t # the successor of t
       xp    =    x / st

@@ -1,5 +1,10 @@
 import math
 
+'''
+Implementation of _The_ Runge-Kutta method ([RK4](https://en.wikipedia.org/w/index.php?title=Runge–Kutta_methods)). RK4 is used to approximate
+solutions of ordinary differential equations.
+'''
+
 def RK4(f):
     return lambda t, y, dt: (
             lambda dy1: (

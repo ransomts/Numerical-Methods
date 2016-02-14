@@ -3,7 +3,10 @@
  
 import copy
 from fractions import Fraction
- 
+'''
+Performs Gaussian Elimination on a system of linear equations to find the 
+solution.
+''' 
 def gauss(a, b):
     a = copy.deepcopy(a)
     b = copy.deepcopy(b)

@@ -1,5 +1,7 @@
 from numpy import *
- 
+'''
+Implementation of Gaussian Quadriture method of numerical integration.
+''' 
 ##################################################################
 # Recursive generation of the Legendre polynomial of order n
 def Legendre(n,x):

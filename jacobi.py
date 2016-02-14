@@ -1,6 +1,13 @@
 import sys
 import math
 
+'''
+Implementation of the Jacobi method of determining the solutions of
+a diagonally dominant system of linear equations. A matrix is diagonally
+dominant if the magnitude of the diagonal element is greater than or equal 
+to the sum of the magnitudes of the other elements in the row.
+'''
+
 def jacobi (A, b, tol, max_its, n, x, delta):
     for k in range(1, max_its, 1):
         norm = 0
@@ -21,4 +28,3 @@ def jacobi (A, b, tol, max_its, n, x, delta):
         for i in range(0, n-1, 1):
             x[i] = xnew[i]
     print("Maximum iterations exceeded")
-

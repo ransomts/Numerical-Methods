@@ -1,5 +1,7 @@
 import math
-
+'''
+Implementation of the Trapazoid method and Simpnon's method of numerical integration.
+'''
 def trapezoid(f, a, b, n):
 # f: continuous funciton to estimate the signed area for
 # a and b: the limets of integration (with a<b)

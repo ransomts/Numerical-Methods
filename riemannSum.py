@@ -1,5 +1,8 @@
 import math
-
+'''
+Implementation of the left hand sum and the trapazoid
+methods of numerical integration.
+'''
 def leftsum(f, a, b, n):
 # f: continuous funciton to estimate the signed area for
 # a and b: the limets of integration (with a<b)

@@ -1,6 +1,8 @@
 import math
 import numpy
-
+'''
+Implementation of the Romberg Method of numerical integration.
+'''
 def romberg( f, a, b, n ):
     """Estimate the integral of f(x) from a to b using Romberg Integration.
 

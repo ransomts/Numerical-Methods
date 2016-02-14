@@ -1,3 +1,7 @@
+'''
+The Runga Kutta method can be extended into a system of ODEs, here it is.
+'''
+
 def rk4(n, t0, x0, tn, nsteps, f):
     # n - number of equations
     # t0 - initial independent variable

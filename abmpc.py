@@ -1,5 +1,8 @@
 import math
-
+'''
+Adams Bashforth Moulton Predictor corrector method, a linear multistep methad 
+used to approximate ordinary differential equatios.
+'''
 # t0: initial independent variable
 # x0: initial dependent variable
 # tn: target value for the independent variable
