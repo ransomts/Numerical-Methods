@@ -39,6 +39,3 @@ print("2c")
 leftsum(lambda x: math.sin(x) / x, -10, 10, 101)
 trapezoid(lambda x: math.sin(x) / x, -10, 10, 101)
 # In assignment 4, the program computed the ln(b) 
-
-
-
